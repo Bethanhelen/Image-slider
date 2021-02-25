@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>navigation bar</title>
+	<link rel="stylesheet" href="nav.css">
+</head>
+<body>
+   <nav>
+      <ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Portfolio</a>
+	  <ul>
+	    <li><a href="#">Digital art</a></li>
+	     <li><a href="#">Video production</a></a></li>	
+		</ul>
+		</li>
+	<li><a href="#">About me</a></li>	
+	<li><a href="#">Contact</a></li>
+	  </ul>
+		</nav>
+   <div class="slidershow middle">
+							
+	<div class="slides">
+										
+	<input type="radio" name="r" id="r1" checked>
+	<input type="radio" name="r" id="r2">
+	<input type="radio" name="r"	id="r3">
+	   <div class="slide s1">
+		<img src="/storage/emulated/0/Download/pexels-david-bartus-297933.jpg" width="100%" height="100%" class="slider-image">
+	   </div>
+								
+	   <div class="slide">						
+	        <img src="/storage/emulated/0/Download/pexels-pixabay-46212.jpg" width="100%" height="100%" class="slider-image">
+	   </div>
+												
+	   <div class="slide">						
+		<img src="/storage/emulated/0/Download/pexels-pixabay-259756.jpg" width="100%" height="100%" class="slider-image">
+		</div>					
+	          </div>
+										
+	   <div class="navigation">
+		<label for ="r1" class="button"></label>
+														
+		<label for ="r2" class="button"></label>
+													
+		<label for ="r3" class="button"></label>"
+		   </div>
+			</div>	
+										
+</body>
+</html>
